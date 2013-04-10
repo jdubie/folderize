@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var program = require('commander'),
+    folderize = require('../index');
+
+program
+  .version('0.0.1')
+  .option('-s, --size [size]', 'Set number of entries in directory [size]', 'size')
+  .parse(process.argv);
+
+folderize.run(program);
