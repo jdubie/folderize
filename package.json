@@ -1,0 +1,10 @@
+{
+  "name": "folderize",
+  "version": "0.0.1",
+  "description": "convert a flat directory into a tree",
+  "dependencies": {
+    "commander": "~1.1.1",
+    "debug": "~0.7.2",
+    "async": "~0.2.7"
+  }
+}
