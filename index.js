@@ -9,7 +9,7 @@
 var fs      = require('fs'),
     path    = require('path'),
     async   = require('async'),
-    debug   = require('debug'),
+    debug   = require('debug');
 
 /*
  * Set constants
@@ -26,7 +26,7 @@ debug = debug('folderizer');
 /*
  * options.size
  */
-exports.run = (options) {
+exports.run = function(options) {
 
   /*
    * List all files
